@@ -1,1 +1,1 @@
-# LotusGPT-20b
+#Nucifera-20b
