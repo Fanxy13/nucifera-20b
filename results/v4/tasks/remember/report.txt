@@ -1,0 +1,126 @@
+LOTUS AI – PERFORMANCE REPORT
+Conversation: Remember that my favorite code editor is Helix.
+Made: 2026-10-11 23:55:21 · from 2026-10-11 23:55:07
+This file contains the whole conversation, with what the AI read and ran. API keys are never in it.
+
+═══ SETUP ═══
+Lotus:           2.13.0
+Where:           lotus ai (one question)
+AI:              gpt-oss-20b · on this Mac
+Provider:        openai · ~/.local/share/lotus/llm/gpt-oss-20b
+Thinking:        ultra (ultra)
+Context:         3911 of 131072 tokens used now
+Tools:           on · 25 tools (15 Lotus tools)
+Permissions:     auto mode
+Improve prompts: off
+Allowed:         mode=auto tools=1 read=allow read_out=ask write=allow write_out=ask run=allow web=allow lotus=allow
+Mac:             Mac17,3 · Apple M5 · 24 GB · 10 cores
+macOS:           Version 27.0.1 (Build 26A434)
+
+═══ TOTALS ═══
+Messages: 1 · answers: 1 · 0 stopped, 0 failed, 0 errors shown
+Working: 13s · thinking: 3s (22%) · waiting for the model: 13s (100%)
+Steps: 1 · Remember 1 · 0 failed
+Model requests: 2 · wrote 93 tokens · 19.1 tokens/s while writing
+Prompts: 7690 tokens in all, 3845 on average, 3896 the largest · from the cache: 3793 (49%) · read at 337 tokens/s
+First token after: 4.3 s on average, 8.1 s at most
+
+═══ WHERE LOTUS STEPPED IN ═══
+Let it go on: 0
+Thinking stopped (too long or in circles): 0 · steps repeated: 0 · files not cut short: 0 · broken tool calls: 0
+
+═══ WHAT STANDS OUT ═══
+Nothing unusual.
+
+═══ THE CONVERSATION ═══
+
+── [1] YOU · 2026-10-11 23:55:07 · 47 characters
+   Remember that my favorite code editor is Helix.
+
+── [2] LOTUS AI (gpt-oss-20b · on this Mac) · took 13s · thought 4s · 1 steps · done
+    8.3s  thinking (202 characters):
+            The user says: "Remember that my favorite code editor is Helix." They want me to remember this fact. So I should call remember with fact: "User's favorite code editor is Helix." That is the only action.
+   12.1s  model request 1: prompt 3794 tokens (0 from the cache) · wrote 78 · server answered after 4.2s, first token after 8.1s · 12.1s in all · 19.5 tokens/s · ended: stop
+   12.1s  thought for 3s
+   12.1s  STEP Remember User's favorite code editor is Helix
+   12.1s    → Kept for later conversations · /memory shows all
+   12.8s  answer:
+            Got it—your favorite code editor is Helix.
+   13.4s  model request 2: prompt 3896 tokens (3793 from the cache) · wrote 15 · server answered after 0.4s, first token after 0.5s · 1.3s in all · 18.8 tokens/s · ended: stop
+
+═══ LOTUS LOG (this time) ═══
+2026-10-11 23:55:19.904	DEBUG	ai	Model: 3794 prompt tokens (0 from its cache), 78 written
+2026-10-11 23:55:19.906	DEBUG	ai	Tool remember
+2026-10-11 23:55:21.168	DEBUG	ai	Model: 3896 prompt tokens (3793 from its cache), 15 written
+
+═══ MODEL SERVER LOG (this time, without the progress lines) ═══
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+2026-10-11 23:55:07,809 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+2026-10-11 23:55:19,913 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+
+— end of report —

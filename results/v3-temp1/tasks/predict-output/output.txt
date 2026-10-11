@@ -1,0 +1,22 @@
+
+✻ thought for 7s
+● List(.)
+  ⎿  1 entry
+
+✻ thought for 1s
+● Read(puzzle.js)
+  ⎿  5 lines
+
+✻ thought for 20s
+● When you run node puzzle.js it prints:
+  
+  ╭─
+  │ start
+  │ 3
+  │ 3
+  │ 3
+  ╰─
+  
+  The string start appears first, then each of the three setTimeout callbacks 
+  logs the value of the loop variable i, which is 3 when the callbacks run.
+

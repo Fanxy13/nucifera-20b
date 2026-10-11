@@ -1,0 +1,64 @@
+
+✻ thought for 48s
+● List(.)
+  ⎿  0 entries
+
+✻ thought for 36s
+● Write(primes.py)
+     def is_prime(n):
+         if n < 2:
+             return False
+         if n == 2:
+             return True
+         if n % 2 == 0:
+             return False
+         i = 3
+         while i * i <= n:
+             if n % i == 0:
+     … 17 more lines
+  ⎿  Created primes.py (27 lines)
+
+✻ thought for 1s
+● Run(python3 primes.py)
+     2
+     3
+     5
+     7
+     11
+     13
+     17
+     19
+     23
+     29
+     … 10 more lines
+  ⎿  exit 0 · 0.1s
+
+✻ thought for 17s
+● primes.py has been created in the current folder and executed successfully. 
+  It prints the first 20 prime numbers, one per line:
+  
+  ╭─
+  │ 2
+  │ 3
+  │ 5
+  │ 7
+  │ 11
+  │ 13
+  │ 17
+  │ 19
+  │ 23
+  │ 29
+  │ 31
+  │ 37
+  │ 41
+  │ 43
+  │ 47
+  │ 53
+  │ 59
+  │ 61
+  │ 67
+  │ 71
+  ╰─
+  
+  The script is ready for use.
+

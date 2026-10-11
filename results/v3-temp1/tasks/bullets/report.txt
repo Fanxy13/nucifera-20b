@@ -1,0 +1,157 @@
+LOTUS AI – PERFORMANCE REPORT
+Conversation: Give exactly three bullet points on why automated tests matt
+Made: 2026-10-11 23:20:39 · from 2026-10-11 23:20:07
+This file contains the whole conversation, with what the AI read and ran. API keys are never in it.
+
+═══ SETUP ═══
+Lotus:           2.13.0
+Where:           lotus ai (one question)
+AI:              gpt-oss-20b · on this Mac
+Provider:        openai · ~/.local/share/lotus/llm/gpt-oss-20b
+Thinking:        ultra (ultra)
+Context:         4194 of 131072 tokens used now
+Tools:           on · 25 tools (15 Lotus tools)
+Permissions:     auto mode
+Improve prompts: off
+Allowed:         mode=auto tools=1 read=allow read_out=ask write=allow write_out=ask run=allow web=allow lotus=allow
+Mac:             Mac17,3 · Apple M5 · 24 GB · 10 cores
+macOS:           Version 27.0.1 (Build 26A434)
+
+═══ TOTALS ═══
+Messages: 1 · answers: 1 · 0 stopped, 0 failed, 0 errors shown
+Working: 32s · thinking: 22s (68%) · waiting for the model: 32s (100%)
+Steps: 0 · 0 failed
+Model requests: 1 · wrote 402 tokens · 17.2 tokens/s while writing
+Prompts: 3792 tokens in all, 3792 on average, 3792 the largest · from the cache: 0 (0%) · read at 440 tokens/s
+First token after: 8.6 s on average, 8.6 s at most
+
+═══ WHERE LOTUS STEPPED IN ═══
+Let it go on: 0
+Thinking stopped (too long or in circles): 0 · steps repeated: 0 · files not cut short: 0 · broken tool calls: 0
+
+═══ WHAT STANDS OUT ═══
+- Thinking took 68% of the time – lower the thinking (/effort) or give smaller steps.
+
+═══ THE CONVERSATION ═══
+
+── [1] YOU · 2026-10-11 23:20:07 · 107 characters
+   Give exactly three bullet points on why automated tests matter. Each bullet at most 8 words. No other text.
+
+── [2] LOTUS AI (gpt-oss-20b · on this Mac) · took 32s · thought 22s · 0 steps · done
+    8.7s  thinking (1714 characters):
+            The user wants: "Give exactly three bullet points on why automated tests matter. Each bullet at most 8 words. No other text."
+            
+            So we must output only 3 bullet points, each <=8 words. No other text. Just bullets. So something like:
+            
+            - Detect regressions early
+            - Enable rapid iteration
+            - Document expected behavior
+            
+            But check length: "Detect regressions early" is 3 words. "Enable rapid iteration" 3 words. "Document expected behavior" 3 words. Good. Or maybe "Reduce manual testing effort" (4 words). Each bullet <= 8 words. So we can produce 3 bullets.
+            
+            But the user explicitly wants "exactly three bullet points". "No other text." So just the bullet points.
+            
+            We should produce lines starting with dash and a space? That's typical. No explanation. The bullet points themselves must be at most 8 words.
+            
+            We should double-check: user says "Give exactly three bullet points on why automated tests matter. Each bullet at most 8 words. No other text." That means we only output bullet list; no header lines. Just bullet list. Should be exactly 3 bullets. Each bullet <=8 words. Good.
+            
+            We should not add numbering or anything. We should not add spaces after the last line maybe. Just output three lines.
+            
+            Let's propose:
+            
+            - Detect regressions early.
+            - Accelerate feature delivery.
+            - Ensure reliable documentation.
+            
+            Each bullet <=8 words. Yes.
+            
+            We need to ensure punctuation? It's fine. We can add a period or not. Not required. The bullet points likely require no period. But no specification. So we can include or exclude. I'll not include period.
+            
+            Thus final output:
+            
+            - Detect regressions early
+            - Accelerate feature delivery
+            - Ensure reliable documentation
+            
+            No other text. That's the entire answer.
+            
+            Let's produce that.
+   31.0s  answer:
+            -
+   31.0s  thought for 22s
+   31.1s  answer:
+             Detect regressions early
+            - Accelerate feature delivery
+            - Ensure reliable documentation
+   32.0s  model request 1: prompt 3792 tokens (0 from the cache) · wrote 402 · server answered after 4.2s, first token after 8.6s · 32.0s in all · 17.2 tokens/s · ended: stop
+
+═══ LOTUS LOG (this time) ═══
+2026-10-11 23:20:39.527	DEBUG	ai	Model: 3792 prompt tokens (0 from its cache), 402 written
+
+═══ MODEL SERVER LOG (this time, without the progress lines) ═══
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+2026-10-11 23:20:07,568 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+
+— end of report —

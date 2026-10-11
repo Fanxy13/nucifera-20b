@@ -1,0 +1,36 @@
+{
+  "name": "Nucifera 20B",
+  "base_model": "openai/gpt-oss-20b (Apache 2.0) – weights unchanged",
+  "mlx_build": "mlx-community/gpt-oss-20b-MXFP4-Q8 @ 773a7da77e569019bb0fd17a554b263738d669a3",
+  "runtime": "mlx-lm 0.32 (mlx_lm.server on 127.0.0.1), started by Lotus: lotus ai local",
+  "lotus": ">= 2.13.1",
+  "context_tokens": 131072,
+  "answer_tokens": 32768,
+  "memory_saver": "off – gpt-oss keeps part of its memory in a rotating cache that MLX cannot compress",
+  "sampling": {
+    "temperature": "the user's creativity setting (lotus ai local settings) – the benchmark ran at 0.2; 1.0 (OpenAI's recommendation) scored about the same, with fewer loops but more slips",
+    "top_p": 0.95,
+    "after_a_loop": {
+      "temperature": ">= 1.0",
+      "top_p": 1.0
+    }
+  },
+  "reasoning_effort": {
+    "quick": "low",
+    "balanced": "medium",
+    "thorough": "high",
+    "maximum": "high",
+    "ultra": "high (+ the ultra instructions, up to 6 rounds of going on)"
+  },
+  "thinking_limit_characters": {
+    "quick": 6000,
+    "balanced": 10000,
+    "thorough": 14000,
+    "maximum": 18000,
+    "ultra": 22000,
+    "after going on": 6000
+  },
+  "thinking_in_circles": "stopped when the last 240 characters of its thinking appeared 3 times (checked from 6000 characters on, every 3000)",
+  "tool_calls": "harmony format, parsed by Lotus (ChannelSplit) – one call per message, the thinking kept with it",
+  "profile": "profile/nucifera.md"
+}

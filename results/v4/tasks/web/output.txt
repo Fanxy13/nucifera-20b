@@ -1,0 +1,40 @@
+
+✻ thought for 10s
+● Web(nodejs.org current LTS version)
+     Node.js — Node.js 24.11.0 (LTS) – nodejs.org
+     Download Node.js® – nodejs.org
+     Node.js LTS vs Current: Which Version Should You Use? – techearl.com
+     Node.js Latest Version - Support Lifecycle, LTS & EOL – versionlog.com
+  ⎿  8 results · DuckDuckGo
+
+✻ thought for 5s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 307 KB
+
+✻ thought for 6s
+● Fetch(nodejs.org/en/download/current)
+  ⎿  Node.js — Download Node.js® · 307 KB
+
+✻ thought for 8s
+● Fetch(nodejs.org/en/about/lts)
+  ⎿  The page answered with 404
+
+✻ thought for 3s
+● Web(nodejs.org LTS)
+     Download Node.js® – nodejs.org
+     Node.js 24.11.0 (LTS) – nodejs.org
+     Node.js 24.14.0 (LTS) – nodejs.org
+     Node.js — Run JavaScript Everywhere – nodejs.org
+  ⎿  8 results · DuckDuckGo
+
+✻ thought for 3s
+● Fetch(nodejs.org/en/blog/release/v24.21.0)
+  ⎿  Node.js — Node.js 24.21.0 (LTS) · 436 KB
+
+✻ thought for 15s
+● Write(node-lts.txt)
+     v24.21.0
+  ⎿  Created node-lts.txt (1 line)
+
+● node-lts.txt created with the current LTS version.
+

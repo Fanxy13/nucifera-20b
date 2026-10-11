@@ -1,0 +1,24 @@
+
+✻ thought for 9s
+● Lotus status
+  ⎿  Lotus 2.13.0 · theme Midnight · language en
+
+✻ thought for 7s
+● The currently enabled Lotus features are:  
+  
+  • App Launcher  
+  • Homebrew  
+  • Web Search  
+  • Weather  
+  • AI Terminal  
+  • Music  
+  • Visualizer  
+  • Video Downloads  
+  • iOS Tools  
+  • Minecraft  
+  • Background Removal  
+  • Pets  
+  • Keep‑awake  
+  
+  (Keep‑awake is currently off, but the feature is available.)
+

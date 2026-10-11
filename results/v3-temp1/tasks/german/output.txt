@@ -1,0 +1,9 @@
+
+✻ thought for 10s
+● Ein Symlink (symbolischer Link) ist eine spezielle Datei, die auf eine 
+  andere Datei oder ein Verzeichnis verweist und beim Zugriff den Inhalt des 
+  Ziels anzeigt. Er ermöglicht die Verwendung unterschiedlicher Pfade zu einer
+  Ressource, ohne sie zu duplizieren, und wird häufig eingesetzt, um 
+  Verzeichnispfade zu verkürzen oder zwischen mehreren Speicherorten zu 
+  verlinken.
+

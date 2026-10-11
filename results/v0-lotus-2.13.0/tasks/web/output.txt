@@ -1,0 +1,21 @@
+
+✻ thought for 12s
+● Web(current Node.js LTS version nodejs.org)
+     Node.js — Node.js 24.11.0 (LTS) – nodejs.org
+     Download Node.js® – nodejs.org
+     Node.js Latest Version - Support Lifecycle, LTS & EOL – versionlog.com
+     Node.js LTS vs Current: Which Version Should You Use? – techearl.com
+  ⎿  8 results · DuckDuckGo
+
+✻ thought for 6s
+● Fetch(nodejs.org/en/blog/release/v24.11.0)
+  ⎿  Node.js — Node.js 24.11.0 (LTS) · 275 KB
+
+✻ thought for 4s
+● Write(node-lts.txt)
+     v24.11.0
+  ⎿  Created node-lts.txt (1 line)
+
+✻ thought for 4s
+● node-lts.txt updated with the current LTS version: v24.11.0.
+

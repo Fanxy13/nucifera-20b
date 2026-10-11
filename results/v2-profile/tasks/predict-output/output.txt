@@ -1,0 +1,22 @@
+
+✻ thought for 4s
+● List(.)
+  ⎿  1 entry
+
+✻ thought for 1s
+● Read(puzzle.js)
+  ⎿  5 lines
+
+✻ thought for 25s
+● The script prints:
+  
+  ╭─
+  │ start
+  │ 3
+  │ 3
+  │ 3
+  ╰─
+  
+  console.log('start') runs immediately, then the three setTimeout callbacks 
+  (scheduled with var i) all log the final value of i, which is 3.
+

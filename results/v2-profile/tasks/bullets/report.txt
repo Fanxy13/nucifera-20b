@@ -1,0 +1,105 @@
+LOTUS AI – PERFORMANCE REPORT
+Conversation: Give exactly three bullet points on why automated tests matt
+Made: 2026-10-11 21:53:19 · from 2026-10-11 21:52:52
+This file contains the whole conversation, with what the AI read and ran. API keys are never in it.
+
+═══ SETUP ═══
+Lotus:           2.13.0
+Where:           lotus ai (one question)
+AI:              gpt-oss-20b · on this Mac
+Provider:        openai · ~/.local/share/lotus/llm/gpt-oss-20b
+Thinking:        ultra (ultra)
+Context:         4109 of 131072 tokens used now
+Tools:           on · 25 tools (15 Lotus tools)
+Permissions:     auto mode
+Improve prompts: off
+Allowed:         mode=auto tools=1 read=allow read_out=ask write=allow write_out=ask run=allow web=allow lotus=allow
+Mac:             Mac17,3 · Apple M5 · 24 GB · 10 cores
+macOS:           Version 27.0.1 (Build 26A434)
+
+═══ TOTALS ═══
+Messages: 1 · answers: 1 · 0 stopped, 0 failed, 0 errors shown
+Working: 28s · thinking: 18s (64%) · waiting for the model: 28s (100%)
+Steps: 0 · 0 failed
+Model requests: 1 · wrote 364 tokens · 18.5 tokens/s while writing
+Prompts: 3745 tokens in all, 3745 on average, 3745 the largest · from the cache: 0 (0%) · read at 468 tokens/s
+First token after: 8.0 s on average, 8.0 s at most
+
+═══ WHERE LOTUS STEPPED IN ═══
+Let it go on: 0
+Thinking stopped (too long or in circles): 0 · steps repeated: 0 · files not cut short: 0 · broken tool calls: 0
+
+═══ WHAT STANDS OUT ═══
+- Thinking took 64% of the time – lower the thinking (/effort) or give smaller steps.
+
+═══ THE CONVERSATION ═══
+
+── [1] YOU · 2026-10-11 21:52:52 · 107 characters
+   Give exactly three bullet points on why automated tests matter. Each bullet at most 8 words. No other text.
+
+── [2] LOTUS AI (gpt-oss-20b · on this Mac) · took 28s · thought 18s · 0 steps · done
+    8.1s  thinking (1284 characters):
+            The user wants exactly three bullet points, each at most 8 words, no other text. They want a short answer. We should produce exactly three bullet points, each bullet point is a line starting with a dash or bullet. The user says "Give exactly three bullet points on why automated tests matter. Each bullet at most 8 words. No other text." So we need to produce exactly three bullet points, each bullet at most 8 words. No other text. So we should produce something like:
+            
+            - Catch regressions early, saving time.
+            - Ensure code quality and reliability.
+            - Facilitate refactoring with confidence.
+            
+            But each bullet must be at most 8 words. Let's count words:
+            
+            - Catch regressions early, saving time. => 5 words? "Catch" (1) "regressions" (2) "early," (3) "saving" (4) "time." (5). Good.
+            
+            - Ensure code quality and reliability. => "Ensure" (1) "code" (2) "quality" (3) "and" (4) "reliability." (5). Good.
+            
+            - Facilitate refactoring with confidence. => "Facilitate" (1) "refactoring" (2) "with" (3) "confidence." (4). Good.
+            
+            We have exactly three bullet points, each at most 8 words. No other text. So we should output:
+            
+            - Catch regressions early, saving time.
+            - Ensure code quality and reliability.
+            - Facilitate refactoring with confidence.
+            
+            Make sure no extra text. That is the final answer.
+   26.3s  answer:
+            -
+   26.3s  thought for 18s
+   26.4s  answer:
+             Catch regressions early, saving time.  
+            - Ensure code quality and reliability.  
+            - Facilitate refactoring with confidence.
+   27.7s  model request 1: prompt 3745 tokens (0 from the cache) · wrote 364 · server answered after 3.8s, first token after 8.0s · 27.7s in all · 18.5 tokens/s · ended: stop
+
+═══ LOTUS LOG (this time) ═══
+2026-10-11 21:53:19.864	DEBUG	ai	Model: 3745 prompt tokens (0 from its cache), 364 written
+
+═══ MODEL SERVER LOG (this time, without the progress lines) ═══
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+2026-10-11 21:52:52,165 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+
+— end of report —

@@ -1,0 +1,68 @@
+
+✻ thought for 3s
+● List(.)
+  ⎿  2 entries
+
+✻ thought for 3s
+● List(shop)
+  ⎿  3 entries
+
+✻ thought for 4s
+● Search("calc_total" in .)
+  ⎿  5 matching lines
+
+✻ thought for 3s
+● Read(shop/cart.py)
+  ⎿  4 lines
+
+✻ thought for 13s
+● Read(shop/report.py)
+  ⎿  6 lines
+
+● Read(test_shop.py)
+  ⎿  7 lines
+
+✻ thought for 18s
+● Edit(shop/cart.py)
+     - def calc_total(items):
+     + def cart_total(items):
+  ⎿  Edited shop/cart.py (−1 +1 lines)
+
+● We need to rename function in all references. In shop/report.py and 
+  test_shop.py. Also any imports. Let's edit those.
+
+● Edit(shop/report.py)
+     - from shop.cart import calc_total
+     + from shop.cart import cart_total
+  ⎿  Edited shop/report.py (−1 +1 lines)
+
+✻ thought for 3s
+● Edit(shop/report.py)
+     - calc_total(items)
+     + cart_total(items)
+  ⎿  Edited shop/report.py (−1 +1 lines)
+
+✻ thought for 3s
+● Edit(test_shop.py)
+     - from shop.cart import calc_total
+     + from shop.cart import cart_total
+  ⎿  Edited test_shop.py (−1 +1 lines)
+
+✻ thought for 4s
+● Edit(test_shop.py)
+     - calc_total([(2, 3), (1, 4)])
+     + cart_total([(2, 3), (1, 4)])
+  ⎿  Edited test_shop.py (−1 +1 lines)
+
+✻ thought for 4s
+● Search("calc_total" in .)
+  ⎿  No matches
+
+✻ thought for 1s
+● Run(python3 test_shop.py)
+     all tests passed
+  ⎿  exit 0 · 0.1s
+
+● All references to calc_total have been renamed to cart_total.  
+  Running test_shop.py now passes with no errors.
+

@@ -1,0 +1,83 @@
+LOTUS AI – PERFORMANCE REPORT
+Conversation: Erkläre in genau zwei Sätzen, was ein Symlink ist.
+Made: 2026-10-11 21:53:34 · from 2026-10-11 21:53:19
+This file contains the whole conversation, with what the AI read and ran. API keys are never in it.
+
+═══ SETUP ═══
+Lotus:           2.13.0
+Where:           lotus ai (one question)
+AI:              gpt-oss-20b · on this Mac
+Provider:        openai · ~/.local/share/lotus/llm/gpt-oss-20b
+Thinking:        ultra (ultra)
+Context:         3874 of 131072 tokens used now
+Tools:           on · 25 tools (15 Lotus tools)
+Permissions:     auto mode
+Improve prompts: off
+Allowed:         mode=auto tools=1 read=allow read_out=ask write=allow write_out=ask run=allow web=allow lotus=allow
+Mac:             Mac17,3 · Apple M5 · 24 GB · 10 cores
+macOS:           Version 27.0.1 (Build 26A434)
+
+═══ TOTALS ═══
+Messages: 1 · answers: 1 · 0 stopped, 0 failed, 0 errors shown
+Working: 15s · thinking: 3s (20%) · waiting for the model: 15s (100%)
+Steps: 0 · 0 failed
+Model requests: 1 · wrote 138 tokens · 19.2 tokens/s while writing
+Prompts: 3736 tokens in all, 3736 on average, 3736 the largest · from the cache: 0 (0%) · read at 478 tokens/s
+First token after: 7.8 s on average, 7.8 s at most
+
+═══ WHERE LOTUS STEPPED IN ═══
+Let it go on: 0
+Thinking stopped (too long or in circles): 0 · steps repeated: 0 · files not cut short: 0 · broken tool calls: 0
+
+═══ WHAT STANDS OUT ═══
+Nothing unusual.
+
+═══ THE CONVERSATION ═══
+
+── [1] YOU · 2026-10-11 21:53:19 · 50 characters
+   Erkläre in genau zwei Sätzen, was ein Symlink ist.
+
+── [2] LOTUS AI (gpt-oss-20b · on this Mac) · took 15s · thought 4s · 0 steps · done
+    7.9s  thinking (271 characters):
+            The user asks: "Erkläre in genau zwei Sätzen, was ein Symlink ist." They want an explanation in exactly two sentences. We should produce a concise answer in German, exactly two sentences. No extra content. The user didn't ask for code or anything else. So we just answer.
+   11.4s  answer:
+            Ein
+   11.4s  thought for 3s
+   11.5s  answer:
+             Symlink (symbolischer Link) ist ein spezielles Dateisystemobjekt, das auf eine andere Datei oder ein anderes Verzeichnis verweist und beim Zugriff wie ein Alias fungiert. Durch den Symlink kann man dieselbe Ressource an mehreren Orten im Dateisystem zugänglich machen, ohne sie zu duplizieren.
+   15.0s  model request 1: prompt 3736 tokens (0 from the cache) · wrote 138 · server answered after 4.0s, first token after 7.8s · 15.0s in all · 19.2 tokens/s · ended: stop
+
+═══ LOTUS LOG (this time) ═══
+2026-10-11 21:53:34.957	DEBUG	ai	Model: 3736 prompt tokens (0 from its cache), 138 written
+
+═══ MODEL SERVER LOG (this time, without the progress lines) ═══
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+2026-10-11 21:53:19,982 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+
+— end of report —

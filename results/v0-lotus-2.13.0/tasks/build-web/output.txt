@@ -1,0 +1,17 @@
+
+✻ thought for 315s
+● Write(todo/index.html)
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Todo List</title>
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;60…
+     </head>
+     <body>
+     … 19 more lines
+  ⎿  Created todo/index.html (29 lines)
+
+     In a browser: 2 files did not load

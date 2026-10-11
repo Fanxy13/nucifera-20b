@@ -1,0 +1,27 @@
+
+✻ thought for 7s
+● List(.)
+  ⎿  1 entry
+
+✻ thought for 1s
+● Read(puzzle.js)
+  ⎿  5 lines
+
+✻ thought for 41s
+● The script prints:
+  
+  ╭─
+  │ start
+  │ 3
+  │ 3
+  │ 3
+  ╰─
+  
+  Explanation:  
+  • The for loop schedules three setTimeout callbacks that all reference the 
+  same var i.  
+  • After the loop, i has the value 3.  
+  • console.log('start') runs immediately, printing start.  
+  • Then the queued callbacks execute, each logging the current value of i, 
+  which is 3.
+

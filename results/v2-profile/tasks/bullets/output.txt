@@ -1,0 +1,6 @@
+
+✻ thought for 18s
+● • Catch regressions early, saving time.  
+  • Ensure code quality and reliability.  
+  • Facilitate refactoring with confidence.
+

@@ -1,0 +1,23 @@
+
+✻ thought for 5s
+● List(.)
+  ⎿  1 entry
+
+✻ thought for 1s
+● Read(puzzle.js)
+  ⎿  5 lines
+
+✻ thought for 50s
+● The script logs the string "start" first, then the value of i three times.  
+  Because var i is function‑scoped, all the setTimeout callbacks see the final
+  value of i (which is 3 after the loop).  
+  
+  So the output is:
+  
+  ╭─
+  │ start
+  │ 3
+  │ 3
+  │ 3
+  ╰─
+

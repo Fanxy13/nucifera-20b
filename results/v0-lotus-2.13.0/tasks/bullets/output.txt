@@ -1,0 +1,6 @@
+
+✻ thought for 12s
+● • Faster bug detection  
+  • Confidence in refactoring  
+  • Documentation of expected behavior
+

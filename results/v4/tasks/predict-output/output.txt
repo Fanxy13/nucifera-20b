@@ -1,0 +1,23 @@
+
+✻ thought for 5s
+● List(.)
+  ⎿  1 entry
+
+✻ thought for 1s
+● Read(puzzle.js)
+  ⎿  5 lines
+
+✻ thought for 23s
+● The program prints four lines:
+  
+  ╭─
+  │ start
+  │ 3
+  │ 3
+  │ 3
+  ╰─
+  
+  console.log('start') runs immediately, then the three setTimeout callbacks 
+  (queued after the loop) each log the value of the function‑scoped variable 
+  i, which is 3 after the loop finishes.
+

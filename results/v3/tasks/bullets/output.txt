@@ -1,0 +1,6 @@
+
+✻ thought for 6s
+● • Ensures code works after changes.  
+  • Detects regressions early.  
+  • Improves confidence in releases.
+

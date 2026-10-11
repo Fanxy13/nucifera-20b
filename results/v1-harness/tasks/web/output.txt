@@ -1,0 +1,89 @@
+
+✻ thought for 3s
+● Web(current Node.js LTS version nodejs.org)
+     Node.js — Node.js 24.11.0 (LTS) – nodejs.org
+     Download Node.js® – nodejs.org
+     Node.js Latest Version - Support Lifecycle, LTS & EOL – versionlog.com
+     Node.js LTS vs Current: Which Version Should You Use? – techearl.com
+  ⎿  8 results · DuckDuckGo
+
+✻ thought for 4s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 200
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 400
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 600
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 800
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 939
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 939
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 939
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 939
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 939
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 939
+
+✻ thought for 3s
+● Fetch(nodejs.org/en/download/current)
+  ⎿  Node.js — Download Node.js® · 308 KB
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download/current)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 200
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download/current)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 400
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download/current)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 600
+
+✻ thought for 1s
+● Fetch(nodejs.org/en/download/current)
+  ⎿  Node.js — Download Node.js® · 308 KB · from character 800
+
+✻ thought for 12s
+● Web(Node.js 24 LTS version 24.11.0)
+     Node.js — Node.js 24.11.0 (LTS) – nodejs.org
+     Node.js — Node.js 24.11.0 (LTS) – nodejs.org
+     Node.js — Run JavaScript Everywhere – nodejs.org
+     nodejs.org/apps/site/pages/en/blog/release/v24.11.0.md at m… – github.com
+  ⎿  8 results · DuckDuckGo
+
+✻ thought for 4s
+● Write(node-lts.txt)
+     v24.11.0
+  ⎿  Created node-lts.txt (1 line)
+
+● node-lts.txt has been created with the current Node.js LTS version: 
+  v24.11.0.
+

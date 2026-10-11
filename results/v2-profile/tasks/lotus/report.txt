@@ -1,0 +1,110 @@
+LOTUS AI – PERFORMANCE REPORT
+Conversation: Which Lotus features are switched on right now?
+Made: 2026-10-11 21:54:18 · from 2026-10-11 21:53:59
+This file contains the whole conversation, with what the AI read and ran. API keys are never in it.
+
+═══ SETUP ═══
+Lotus:           2.13.0
+Where:           lotus ai (one question)
+AI:              gpt-oss-20b · on this Mac
+Provider:        openai · ~/.local/share/lotus/llm/gpt-oss-20b
+Thinking:        ultra (ultra)
+Context:         4079 of 131072 tokens used now
+Tools:           on · 25 tools (15 Lotus tools)
+Permissions:     auto mode
+Improve prompts: off
+Allowed:         mode=auto tools=1 read=allow read_out=ask write=allow write_out=ask run=allow web=allow lotus=allow
+Mac:             Mac17,3 · Apple M5 · 24 GB · 10 cores
+macOS:           Version 27.0.1 (Build 26A434)
+
+═══ TOTALS ═══
+Messages: 1 · answers: 1 · 0 stopped, 0 failed, 0 errors shown
+Working: 20s · thinking: 6s (30%) · waiting for the model: 20s (99%)
+Steps: 1 · Lotus status 1 · 0 failed
+Model requests: 2 · wrote 228 tokens · 20.5 tokens/s while writing
+Prompts: 7624 tokens in all, 3812 on average, 3893 the largest · from the cache: 3730 (48%) · read at 365 tokens/s
+First token after: 4.1 s on average, 7.5 s at most
+
+═══ WHERE LOTUS STEPPED IN ═══
+Let it go on: 0
+Thinking stopped (too long or in circles): 0 · steps repeated: 0 · files not cut short: 0 · broken tool calls: 0
+
+═══ WHAT STANDS OUT ═══
+Nothing unusual.
+
+═══ THE CONVERSATION ═══
+
+── [1] YOU · 2026-10-11 21:53:59 · 47 characters
+   Which Lotus features are switched on right now?
+
+── [2] LOTUS AI (gpt-oss-20b · on this Mac) · took 20s · thought 8s · 1 steps · done
+    7.6s  thinking (94 characters):
+            The user asks: "Which Lotus features are switched on right now?" We need to call lotus_status.
+    9.5s  model request 1: prompt 3731 tokens (0 from the cache) · wrote 42 · server answered after 3.8s, first token after 7.5s · 9.5s in all · 21.0 tokens/s · ended: stop
+    9.5s  thought for 1s
+    9.5s  STEP Lotus status 
+    9.6s    → Lotus 2.13.0 · theme Midnight · language en
+   10.5s  thinking (465 characters):
+            We have the result. We need to respond with the features that are switched on. The user asked: "Which Lotus features are switched on right now?" So we should list them. The output shows features on: App Launcher, Homebrew, Web Search, Weather, AI Terminal, Music, Visualizer, Video Downloads, iOS Tools, Minecraft, Background Removal, Pets, Keep awake. And features off: none. Keep awake: off. So we should answer: The following features are on: ... Provide a list.
+   16.0s  answer:
+            Lot
+   16.0s  thought for 5s
+   16.1s  answer:
+            us features currently enabled:
+            
+            - App Launcher  
+            - Homebrew  
+            - Web Search  
+            - Weather  
+            - AI Terminal  
+            - Music  
+            - Visualizer  
+            - Video Downloads  
+            - iOS Tools  
+            - Minecraft  
+            - Background Removal  
+            - Pets  
+            - Keep‑awake  
+            
+            No features are currently turned off. Keep‑awake is currently disabled.
+   19.6s  model request 2: prompt 3893 tokens (3730 from the cache) · wrote 186 · server answered after 0.6s, first token after 0.7s · 10.0s in all · 20.0 tokens/s · ended: stop
+
+═══ LOTUS LOG (this time) ═══
+2026-10-11 21:54:08.580	DEBUG	ai	Model: 3731 prompt tokens (0 from its cache), 42 written
+2026-10-11 21:54:08.582	DEBUG	ai	Tool lotus_status
+2026-10-11 21:54:08.583	INFO	ai	Lotus tool lotus_status ai-tool lotus_status
+2026-10-11 21:54:18.646	DEBUG	ai	Model: 3893 prompt tokens (3730 from its cache), 186 written
+
+═══ MODEL SERVER LOG (this time, without the progress lines) ═══
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+2026-10-11 21:53:55,768 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+2026-10-11 21:53:59,055 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+2026-10-11 21:54:08,678 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+
+— end of report —

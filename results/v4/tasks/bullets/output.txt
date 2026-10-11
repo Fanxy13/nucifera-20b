@@ -1,0 +1,6 @@
+
+✻ thought for 12s
+● • Ensure code behaves as expected.
+  • Catch regressions early.
+  • Facilitate safe refactoring.
+

@@ -1,0 +1,17 @@
+
+✻ thought for 13s
+● Run(python3 - << 'PY' ⏎ import sympy as sp ⏎ print(sum(sp.primerange(0,100…)
+     Traceback (most recent call last):
+       File "<stdin>", line 1, in <module>
+     ModuleNotFoundError: No module named 'sympy'
+  ⎿  exit 1 · 0.1s
+
+✻ thought for 5s
+● Run(python3 - << 'PY' ⏎ import math ⏎ primes=[] ⏎ for n in range(2,100): ⏎…)
+     [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67,…
+     1060
+  ⎿  exit 0 · 0.1s
+
+✻ thought for 1s
+● 1060
+

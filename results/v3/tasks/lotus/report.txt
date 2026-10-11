@@ -1,0 +1,139 @@
+LOTUS AI – PERFORMANCE REPORT
+Conversation: Which Lotus features are switched on right now?
+Made: 2026-10-11 22:54:43 · from 2026-10-11 22:54:29
+This file contains the whole conversation, with what the AI read and ran. API keys are never in it.
+
+═══ SETUP ═══
+Lotus:           2.13.0
+Where:           lotus ai (one question)
+AI:              gpt-oss-20b · on this Mac
+Provider:        openai · ~/.local/share/lotus/llm/gpt-oss-20b
+Thinking:        ultra (ultra)
+Context:         4110 of 131072 tokens used now
+Tools:           on · 25 tools (15 Lotus tools)
+Permissions:     auto mode
+Improve prompts: off
+Allowed:         mode=auto tools=1 read=allow read_out=ask write=allow write_out=ask run=allow web=allow lotus=allow
+Mac:             Mac17,3 · Apple M5 · 24 GB · 10 cores
+macOS:           Version 27.0.1 (Build 26A434)
+
+═══ TOTALS ═══
+Messages: 1 · answers: 1 · 0 stopped, 0 failed, 0 errors shown
+Working: 14s · thinking: 4s (29%) · waiting for the model: 13s (99%)
+Steps: 1 · Lotus status 1 · 0 failed
+Model requests: 2 · wrote 214 tokens · 28.0 tokens/s while writing
+Prompts: 7732 tokens in all, 3866 on average, 3956 the largest · from the cache: 3775 (48%) · read at 544 tokens/s
+First token after: 2.9 s on average, 5.2 s at most
+
+═══ WHERE LOTUS STEPPED IN ═══
+Let it go on: 0
+Thinking stopped (too long or in circles): 0 · steps repeated: 0 · files not cut short: 0 · broken tool calls: 0
+
+═══ WHAT STANDS OUT ═══
+Nothing unusual.
+
+═══ THE CONVERSATION ═══
+
+── [1] YOU · 2026-10-11 22:54:29 · 47 characters
+   Which Lotus features are switched on right now?
+
+── [2] LOTUS AI (gpt-oss-20b · on this Mac) · took 14s · thought 5s · 1 steps · done
+    5.3s  thinking (174 characters):
+            The user asks: "Which Lotus features are switched on right now?" We need to use lotus_status to get the status. Then we need to parse the output. We should call lotus_status.
+    7.3s  model request 1: prompt 3776 tokens (0 from the cache) · wrote 60 · server answered after 2.6s, first token after 5.2s · 7.3s in all · 28.6 tokens/s · ended: stop
+    7.3s  thought for 1s
+    7.3s  STEP Lotus status 
+    7.3s    → Lotus 2.13.0 · theme Midnight · language en
+    7.9s  thinking (379 characters):
+            We have the output. We need to answer: Which Lotus features are switched on right now? So we list them. The output says "Features on: App Launcher, Homebrew, Web Search, Weather, AI Terminal, Music, Visualizer, Video Downloads, iOS Tools, Minecraft, Background Removal, Pets, Keep awake". So we should list them. The user might want a concise answer. We'll respond with the list.
+   11.4s  answer:
+            The
+   11.4s  thought for 3s
+   11.4s  answer:
+             following Lotus features are currently enabled:
+            
+            - App Launcher  
+            - Homebrew  
+            - Web Search  
+            - Weather  
+            - AI Terminal  
+            - Music  
+            - Visualizer  
+            - Video Downloads  
+            - iOS Tools  
+            - Minecraft  
+            - Background Removal  
+            - Pets  
+            - Keep awake  
+   13.5s  model request 2: prompt 3956 tokens (3775 from the cache) · wrote 154 · server answered after 0.4s, first token after 0.5s · 6.1s in all · 27.5 tokens/s · ended: stop
+
+═══ LOTUS LOG (this time) ═══
+2026-10-11 22:54:37.229	DEBUG	ai	Model: 3776 prompt tokens (0 from its cache), 60 written
+2026-10-11 22:54:37.231	DEBUG	ai	Tool lotus_status
+2026-10-11 22:54:37.231	INFO	ai	Lotus tool lotus_status ai-tool lotus_status
+2026-10-11 22:54:43.440	DEBUG	ai	Model: 3956 prompt tokens (3775 from its cache), 154 written
+
+═══ MODEL SERVER LOG (this time, without the progress lines) ═══
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "~/.local/share/lotus/runtime/llm/lib/python3.14/site-packages/mlx_lm/server.py", line 1200, in do_POST
+BrokenPipeError: [Errno 32] Broken pipe
+2026-10-11 22:54:24,875 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+2026-10-11 22:54:28,003 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+2026-10-11 22:54:29,978 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+2026-10-11 22:54:37,301 - WARNING - Received tools but model does not support tool calling. If you think this is an error, file an issue here: https://github.com/ml-explore/mlx-lm/issues
+
+— end of report —
